@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0.5em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.nav-bar {
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+#drawing {
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 1em;
+}
+
+.nav-bar a {
+  background-color: gray;
+  color: black;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
+  text-decoration: none;
+  width: 3em;
+}
+
+.nav-bar a:hover {
+  background-color: lightgray;
+}
+
+.disabled {
+  background-color: gray !important;
+  color: gray !important;
+  user-select: none;
+  cursor: default;;
+}
