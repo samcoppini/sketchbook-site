@@ -1,4 +1,4 @@
-<?
+<?php
   // Redirects the browser to a given URL
   function redirect($url) {
     header("Location: " . $url, true, 303);
