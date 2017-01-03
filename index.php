@@ -67,7 +67,7 @@
 <html>
   <head>
     <title>Sam's Sketchbook Site</title>
-    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <h1><?= $drawing["name"] ?></h1>
@@ -78,5 +78,8 @@
            id="drawing" />
     </a>
 <?php display_buttons($page_num, $max_drawing_index); ?>
+    <small>&copy; 2016-2017 Sam Coppini.
+      <a href="archive.php">Archive</a>
+    </small>
   </body>
 </html>
