@@ -68,6 +68,7 @@
   <head>
     <title>Sam's Sketchbook Site</title>
     <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <script src="key_presses.js" type="text/javascript"></script>
   </head>
   <body>
     <h1><?= $drawing["name"] ?></h1>
