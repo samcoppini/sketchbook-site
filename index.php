@@ -79,7 +79,7 @@
            id="drawing" />
     </a>
 <?php display_buttons($page_num, $max_drawing_index); ?>
-    <small>&copy; 2016-2017 Sam Coppini.
+    <small>&copy; 2016-<?= date("Y") ?> Sam Coppini.
       <a href="archive.php">Archive</a>
     </small>
   </body>
